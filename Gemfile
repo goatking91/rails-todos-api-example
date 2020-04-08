@@ -44,3 +44,7 @@ group :test do
   gem 'faker', '~> 2.11'
   gem 'database_cleaner', '~> 1.8', '>= 1.8.4'
 end
+
+gem 'bcrypt', '~> 3.1', '>= 3.1.13'
+
+gem 'jwt', '~> 2.2', '>= 2.2.1'
