@@ -11,6 +11,6 @@ class JsonWebToken
     HashWithIndifferentAccess.new body
 
   rescue JWT::DecodeError => e
-    rails ExceptionHandler::InvalidToken, e.message
+    raise ExceptionHandler::InvalidToken, e.message
   end
 end
