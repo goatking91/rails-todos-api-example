@@ -50,3 +50,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.13'
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 
 gem 'active_model_serializers', '~> 0.10.10'
+
+gem 'will_paginate', '~> 3.3'
+
+gem 'faker', '~> 2.11'
